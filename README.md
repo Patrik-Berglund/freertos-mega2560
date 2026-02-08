@@ -32,3 +32,7 @@ make flash
 - Scheduler tick: Watchdog Timer (WDTO_15MS, ~15ms/tick)
 - Heap: heap_1 (1KB configured, no fragmentation)
 - Serial port: /dev/ttyUSB0
+
+## Reference
+
+- [PINMAP.md](PINMAP.md) - Arduino to ATmega2560 pin mapping
