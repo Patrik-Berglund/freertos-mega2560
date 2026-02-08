@@ -37,3 +37,21 @@ make flash
 
 - [PINMAP.md](PINMAP.md) - Arduino to ATmega2560 pin mapping
 - [ATmega2560 Datasheet](https://ww1.microchip.com/downloads/en/devicedoc/atmel-2549-8-bit-avr-microcontroller-atmega640-1280-1281-2560-2561_datasheet.pdf)
+
+## Programming Interface
+
+The board can be programmed via:
+
+1. **USB Bootloader** (default, what we use)
+   - Uses UART0: PE0 (RX0), PE1 (TX0) - Arduino pins 0/1
+   - ATmega16U2 chip handles USB-to-serial conversion
+   - Auto-reset via DTR line
+   - Command: `avrdude -c wiring`
+
+2. **ICSP Header** (6-pin, for direct ISP programming)
+   - PB1 (SCK) - Arduino pin 52
+   - PB2 (MOSI) - Arduino pin 51
+   - PB3 (MISO) - Arduino pin 50
+   - RESET
+   - VCC, GND
+   - Command: `avrdude -c stk500v2` or `-c usbasp`
