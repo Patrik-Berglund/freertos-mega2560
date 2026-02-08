@@ -53,3 +53,9 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# FreeRTOS kernel (downloaded)
+freertos-kernel/
+
+# Visual Studio
+.vs/
