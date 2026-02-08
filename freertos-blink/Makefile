@@ -18,7 +18,7 @@ SRC = main.c \
       $(FREERTOS)/tasks.c \
       $(FREERTOS)/queue.c \
       $(FREERTOS)/list.c \
-      $(FREERTOS)/portable/MemMang/heap_4.c \
+      $(FREERTOS)/portable/MemMang/heap_1.c \
       $(PORT_DIR)/port.c
 
 TARGET = freertos-blink
