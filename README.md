@@ -29,6 +29,6 @@ make flash
 ## Configuration
 
 - MCU: ATmega2560 @ 16MHz
-- Scheduler tick: Watchdog Timer (~62Hz)
+- Scheduler tick: Watchdog Timer (WDTO_15MS, ~15ms/tick)
 - Heap: heap_1 (1KB configured, no fragmentation)
 - Serial port: /dev/ttyUSB0
