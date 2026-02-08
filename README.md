@@ -36,3 +36,4 @@ make flash
 ## Reference
 
 - [PINMAP.md](PINMAP.md) - Arduino to ATmega2560 pin mapping
+- [ATmega2560 Datasheet](https://ww1.microchip.com/downloads/en/devicedoc/atmel-2549-8-bit-avr-microcontroller-atmega640-1280-1281-2560-2561_datasheet.pdf)

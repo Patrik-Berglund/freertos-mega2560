@@ -63,27 +63,6 @@ All pins support digital I/O. Alternate functions listed below.
 | 52 | PB1 | SCK, PCINT1 |
 | 53 | PB0 | SS, PCINT0 |
 
-## Unmapped Pins (no header)
-
-| Arduino | ATmega2560 | Alternate Functions |
-|---------|------------|---------------------|
-| N/A | PE2 | XCK0, AIN0 |
-| N/A | PE6 | T3, INT6 |
-| N/A | PE7 | CLKO, ICP3, INT7 |
-| N/A | PH2 | XCK2 |
-| N/A | PH7 | T4 |
-| N/A | PJ2 | XCK3, PCINT11 |
-| N/A | PJ3 | PCINT12 |
-| N/A | PJ4 | PCINT13 |
-| N/A | PJ5 | PCINT14 |
-| N/A | PJ6 | PCINT15 |
-| N/A | PJ7 | |
-| N/A | PG3 | TOSC2 |
-| N/A | PG4 | TOSC1 |
-| N/A | PD4 | ICP1 |
-| N/A | PD5 | XCK1 |
-| N/A | PD6 | T1 |
-
 ## Analog Pins
 
 | Arduino | ATmega2560 | Alternate Functions |
@@ -104,3 +83,24 @@ All pins support digital I/O. Alternate functions listed below.
 | A13 | PK5 | ADC13, PCINT21 |
 | A14 | PK6 | ADC14, PCINT22 |
 | A15 | PK7 | ADC15, PCINT23 |
+
+## Unmapped Pins (no header)
+
+| Arduino | ATmega2560 | Alternate Functions |
+|---------|------------|---------------------|
+| N/A | PE2 | XCK0, AIN0 |
+| N/A | PE6 | T3, INT6 |
+| N/A | PE7 | CLKO, ICP3, INT7 |
+| N/A | PH2 | XCK2 |
+| N/A | PH7 | T4 |
+| N/A | PJ2 | XCK3, PCINT11 |
+| N/A | PJ3 | PCINT12 |
+| N/A | PJ4 | PCINT13 |
+| N/A | PJ5 | PCINT14 |
+| N/A | PJ6 | PCINT15 |
+| N/A | PJ7 | |
+| N/A | PG3 | TOSC2 |
+| N/A | PG4 | TOSC1 |
+| N/A | PD4 | ICP1 |
+| N/A | PD5 | XCK1 |
+| N/A | PD6 | T1 |
