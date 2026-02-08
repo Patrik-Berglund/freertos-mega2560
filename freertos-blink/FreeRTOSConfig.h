@@ -8,7 +8,7 @@
 
 #define configUSE_PREEMPTION                1
 #define configCPU_CLOCK_HZ                  ((uint32_t)F_CPU)
-#define configTICK_RATE_HZ                  ((TickType_t)62)  /* ~15ms WDT period */
+#define configTICK_RATE_HZ                  ((TickType_t)67)  /* ~15ms WDT period = ~66.67Hz */
 #define configMAX_PRIORITIES                4
 #define configMINIMAL_STACK_SIZE            85
 #define configTOTAL_HEAP_SIZE               1024
